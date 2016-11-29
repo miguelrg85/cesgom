@@ -1,0 +1,67 @@
+html
+  head
+    meta(charset='utf-8')
+    link(rel='stylesheet' href='styles/bootstrap.css')
+    link(rel='stylesheet' href='styles/jquery.bxslider.css')
+    link(rel='stylesheet' href='styles/style.css')
+  body
+    .container-fluid      
+      .row
+        .col-xs-12.col.sm-10.col-md-10.col-lg-9.col-centered
+          .encabezado
+      .row
+        .col-xs-12.col.sm-10.col-md-10.col-lg-9.col-centered
+          nav.navbar.navbar-inverse(role='navigation')
+            .container-fluid
+              .navbar-header
+                button.navbar-toggle(type='button', data-toggle='collapse', data-target='#myNavbar')
+                  span.icon-bar
+                  span.icon-bar
+                  span.icon-bar
+                a.navbar-brand(href='#') CESGOM
+              #myNavbar.collapse.navbar-collapse
+                ul.nav.navbar-nav
+                  li.active
+                    a(href='#') Home
+                  li
+                    a(href='#') Quienes somos
+                  li
+                    a(href='#') Cursos
+                  li
+                    a(href='#') Productos Náuticos
+                  li
+                    a(href='#') Productos Smartphone
+    block content
+    script(src='scripts/jquery.min.js')
+    script(src='scripts/bootstrap.js')
+    script(src='scripts/jquery.bxslider.js')
+  script.
+    $(document).ready(function(){
+      $('.slider1').bxSlider({
+        slideWidth: 500,
+        slideMargin: 10,
+        auto: true,
+        autoHover: true,
+        pause: 4000,
+        infiniteLoop: true,
+        auto: true
+      });
+      $('.slider2').bxSlider({
+        slideWidth: 500,
+        slideMargin: 10,
+        auto: true,
+        autoHover: true,
+        pause: 4000,
+        infiniteLoop: true,
+        auto: true
+      });
+      $('.slider3').bxSlider({
+        slideWidth: 500,
+        slideMargin: 10,
+        auto: true,
+        autoHover: true,
+        pause: 4000,
+        infiniteLoop: true,
+        auto: true
+      });
+    });

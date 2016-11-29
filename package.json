@@ -1,0 +1,31 @@
+{
+  "name": "cesgomcomercializadora.com",
+  "version": "0.0.1",
+  "description": "Comercializadora CESGOM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelrg85/cesgom.git"
+  },
+  "author": "Miguel Angel Reyes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miguelrg85/cesgom/issues"
+  },
+  "homepage": "https://github.com/miguelrg85/cesgom#readme",
+  "devDependencies": {
+    "connect": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-livereload": "^3.8.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-uglify": "^2.0.0",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1"
+  }
+}

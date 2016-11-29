@@ -1,0 +1,32 @@
+.encabezado {
+  background-image: url('../img/header.jpg');
+  height: 198px;
+}
+
+
+.borde {
+  border-style: solid;
+  border-color: green;
+  border-width: 5px;
+}
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+nav.navbar {
+  background-color: #1c3664;
+}
+
+ul.nav.navbar-nav li a{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #FFFFFF;
+}
+
+ul.nav a:hover {
+  color: #fff !important;
+}
+
+.slider {
+  float: left;
+}
