@@ -38,6 +38,12 @@ gulp.task('layout', function(){
     .pipe(connect.reload())
 });
 
+gulp.task('quienes_somos', function(){
+    gulp.src('./app/templates/quienes_somos.jade')
+    .pipe(plumber())
+    .pipe(connect.reload())
+});
+
 gulp.task('style', function(){
     gulp.src('./app/styles/**/*.css')
     .pipe(plumber())
@@ -53,7 +59,7 @@ gulp.task('html', function() {
 // Vigila cambios que se produzcan en el código
 // y lanza las tareas relacionadas
 gulp.task('watch', function() {
-  gulp.watch(['./app/templates/*.jade'], ['jade2html', 'layout']);
+  gulp.watch(['./app/templates/*.jade'], ['jade2html', 'layout', 'quienes_somos']);
   gulp.watch(['./app/**/*.html'], ['html']);
   gulp.watch(['./app/styles/**/*.css'], ['style']);
   gulp.watch(['./app/scripts/**/*.js', './Gulpfile.js'], ['jshint']);

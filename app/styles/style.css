@@ -9,6 +9,11 @@
   border-color: green;
   border-width: 5px;
 }
+
+.slider1 {
+  height: 300px;
+}
+
 .col-centered {
   float: none;
   margin: 0 auto;
@@ -27,6 +32,19 @@ ul.nav a:hover {
   color: #fff !important;
 }
 
-.slider {
-  float: left;
+.divisor {
+  border-top: solid;
+  border-color: gray;
 }
+
+.introduccion {
+  text-align: justify;
+  font-size: 20px;
+}
+
+.titulo {
+  text-align: center;
+}
+/*.bx-wrapper, .bx-viewport {
+    height: 220px !important;
+}*/
